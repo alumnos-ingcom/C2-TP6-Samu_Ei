@@ -1,7 +1,7 @@
 ########################################################
-# Matías G. Quevedo - @Gerchu-arqv
+# Samuel Sisto - @samusisto
 # Eimi Saiz - @EimiSaiz
-# TP 6 - Eje. 1: Xxx
+# TP 6 - Eje. x: Xxx
 # UNRN Andina - Introducción a Ingeniería en Computación
 ########################################################
 
