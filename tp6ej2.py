@@ -1,7 +1,7 @@
 ########################################################
 # Samuel Sisto - @samusisto
 # Eimi Saiz - @EimiSaiz
-# TP 6 - Eje. x: Xxx
+# TP 6 - Eje. 2: Anagrama II
 # UNRN Andina - Introducción a Ingeniería en Computación
 ########################################################
 
@@ -30,7 +30,6 @@ def identificador_palabras(archivo):
 
             if letra != ' ':
                 palabra1 += letra.lower()
-        
 
         for letra in renglon[separador + 1:cierre]:
 
@@ -42,7 +41,7 @@ def identificador_palabras(archivo):
     return lista_palabras
 
 
-def principal():
+def prueba():
    
     texto = '../anagramas.txt'
     
@@ -53,4 +52,4 @@ def principal():
         print(palabras, analisis_anagrama(palabras[0], palabras[1]))
 
 if __name__ == "__main__":
-    principal()
+    prueba()
