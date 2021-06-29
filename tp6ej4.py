@@ -1,7 +1,7 @@
 ########################################################
 # Samuel Sisto - @samusisto
 # Eimi Saiz - @EimiSaiz
-# TP 6 - Eje. x: Xxx
+# TP 6 - Eje. 4: Codificador
 # UNRN Andina - Introducción a Ingeniería en Computación
 ########################################################
 
@@ -30,7 +30,7 @@ def manejador_archivo(archivo_entrada, texto_nuevo = None, accion = None):
             raise FileNotFoundError('No se encuentra el archivo!', archivo_entrada)
 
 
-def principal():
+def prueba():
 
     a_entrada = input("Ingrese la dirección de archivo de entrada.")
     cant_rotacion = input("Ingrese la cantidad de rotaciones.")
@@ -42,4 +42,4 @@ def principal():
     a_salida = manejador_archivo(a_entrada, texto_codificado, "w")
 
 if __name__ == "__main__":
-    principal()
+    prprueba()
