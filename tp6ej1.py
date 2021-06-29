@@ -1,7 +1,7 @@
 ########################################################
 # Samuel Sisto - @samusisto
 # Eimi Saiz - @EimiSaiz
-# TP 6 - Eje. x: Xxx
+# TP 6 - Eje. 1: Anagrama
 # UNRN Andina - Introducción a Ingeniería en Computación
 ########################################################
 
@@ -21,7 +21,6 @@ def analisis_anagrama(palabra1, palabra2):
             else:
             
                 dict_palabra1[letra] += 1
-
 
     for letra in palabra2:
         
@@ -43,7 +42,7 @@ def analisis_anagrama(palabra1, palabra2):
 
     return True
 
-def principal():
+def prueba():
         
     palabra1 = input('Ingrese una palabra.')
     palabra2 = input('Ingrese otra palabra.')
@@ -53,4 +52,4 @@ def principal():
     print(es_anagrama)
 
 if __name__ == "__main__":
-    principal()
+    prueba()
